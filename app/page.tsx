@@ -101,7 +101,7 @@ const StyledHome = styled.div`
     justify-content: center;
     .title{
       font-size: 2rem;
-      color:#5caff3;
+      color:#f35cbe;
       font-family: comic sans ms;
     }
   }
