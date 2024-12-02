@@ -32,8 +32,7 @@ function Home() {
         let maxVolume = Math.max(...dataArray);
 
         // Adjust the threshold value based on testing
-        if (maxVolume > 230) {
-          // alert("Blowing detected!");
+        if (maxVolume > 250) {
           setFlamesVisible(false);
           stream.getTracks().forEach(track => track.stop());
         } else {
@@ -57,7 +56,7 @@ function Home() {
   return (
     <StyledHome data-testid="container">
       <div className="home-container">
-        <div className="title">Happy Birthday To You</div>
+        <div className="title">Happy Birthday Comiii🥳</div>
         <div id="birthday-cake">
           <div className="cake">
             <div className="middle"></div>
