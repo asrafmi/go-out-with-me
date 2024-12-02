@@ -32,7 +32,7 @@ function Home() {
         let maxVolume = Math.max(...dataArray);
 
         // Adjust the threshold value based on testing
-        if (maxVolume > 250) {
+        if (maxVolume > 200) {
           setFlamesVisible(false);
           stream.getTracks().forEach(track => track.stop());
         } else {
